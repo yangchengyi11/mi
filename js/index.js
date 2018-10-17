@@ -57,20 +57,20 @@
         /*arrow-btn*/
         $(".arrow-rtbtn").mouseenter(
             function () {
-                $(".arrow-rtbtn img").attr("src", "images/arrow_rightbtn.png") //鼠标经过banner右箭头时，换图片
+                $(".arrow-rtbtn img").attr("src", "img/arrow_rightbtn.png") //鼠标经过banner右箭头时，换图片
             }
         ).mouseleave(
             function () {
-                $(".arrow-rtbtn img").attr("src", "images/arrow_rightbtn01.png") //鼠标经过banner右箭头时，变为原来的图片
+                $(".arrow-rtbtn img").attr("src", "img/arrow_rightbtn01.png") //鼠标经过banner右箭头时，变为原来的图片
             }
         )
         $(".arrow-lfbtn").mouseenter(
             function () {
-                $(".arrow-lfbtn img").attr("src", "images/arrow_leftbtn.png") //鼠标经过banner左箭头时，换图片
+                $(".arrow-lfbtn img").attr("src", "img/arrow_leftbtn.png") //鼠标经过banner左箭头时，换图片
             }
         ).mouseleave(
             function () {
-                $(".arrow-lfbtn img").attr("src", "images/arrow_leftbtn01.png") //鼠标经过banner左箭头时，变为原来的图片
+                $(".arrow-lfbtn img").attr("src", "img/arrow_leftbtn01.png") //鼠标经过banner左箭头时，变为原来的图片
             }
         )
         var t = 0 //赋值一个变量
@@ -171,11 +171,11 @@
         /***********************视频**************************/
         $(".video-box .content").mouseenter(
             function () {
-                $(this).find(".play").attr("src", "images/video_play01.png")
+                $(this).find(".play").attr("src", "img/video_play01.png")
             }
         ).mouseleave(
             function () {
-                $(this).find(".play").attr("src", "images/video_play.png")
+                $(this).find(".play").attr("src", "img/video_play.png")
             }
         )
          /***********************导航栏**************************/

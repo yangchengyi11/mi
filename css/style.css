@@ -381,7 +381,7 @@
          height: 614px;
          float: left;
          margin-right: 14px;
-         background-image: url(images/haraware_kid.png);
+         background-image: url(img/haraware_kid.png);
          background-repeat: no-repeat;
          text-align: center;
      }
@@ -1237,7 +1237,7 @@
      }
 
      .banner_x .logo {
-         background: url('../images/logo_top.png') no-repeat center center;
+         background: url('../img/logo_top.png') no-repeat center center;
          width: 50px;
          height: 100px;
      }

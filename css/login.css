@@ -260,7 +260,7 @@ background: url("../img/4d52c587e6415f82684a881db27e3b01.jpg")no-repeat;
     margin: 0 auto;
     margin-bottom: 10px;
     padding-left: 20px;
-    background: url(../images/sprite_login_02.jpg) no-repeat left bottom;
+    background: url(../img/sprite_login_02.jpg) no-repeat left bottom;
     display: none;
 }
 body {
@@ -281,7 +281,7 @@ box {
     width: 786px;
     height: 88px;
     padding-bottom: 40px;
-    background: url(../images/logo_top.png)no-repeat 50% 0%;
+    background: url(../img/logo_top.png)no-repeat 50% 0%;
     margin: 0% auto;
 
 }
