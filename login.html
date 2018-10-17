@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小米登录系统</title>
+    <!-- <link rel="stylesheet" href="css/common/common.css"> -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="login">
+        <div class="bj"></div>
+        <a href="#"><img src="img/mistore_logo.png" alt=""></a>
+        <div class="landscape"></div>
+        <canvas class="canvas-star"></canvas>
+        <div class="all">
+            <form class="login-form" onsubmit="return false">
+                <h1>账号登陆&nbsp;&nbsp;&nbsp;|<a style="color:black;font-size:24px;">&nbsp;&nbsp;&nbsp;扫码登陆</a></h1>
+                <input name="username" type="text" required="required" placeholder="邮箱/手机号码/小米ID" />
+                <input name="password" type="password" required="required" placeholder="密码" />
+                <div class="wangji">
+                    <a href="register.html">注册账号</a>
+                </div>
+                <button class="but" type="submit" name="login-btn">登录</button>
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;<a href="zhuce.html">手机短信登录/注册</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                    href="zhuce.html">立即注册| 忘记密码？</a>
+
+            </form>
+            <fieldset class="oth_type_tit">
+                <legend align="center" class="oth_type_txt">其他方式登录</legend>
+            </fieldset>
+            <div class="oth_type_links">
+                <a class="icon_type btn_qq sns-login-link" data-type="qq" href="#"><i class="btn_sns_icontype icon_default_qq"></i></a>
+                <a class="icon_type btn_weibo sns-login-link" data-type="weibo" href="#"><i class="btn_sns_icontype icon_default_weibo"></i></a>
+                <a class="icon_type btn_alipay sns-login-link" data-type="alipay" href="#"><i class="btn_sns_icontype icon_default_alipay"></i></a>
+                <a class="icon_type btn_weixin sns-login-link" data-type="weixin" href="#"><i class="btn_sns_icontype icon_default_weixin"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="wei">
+        <div class="nf-link-area clearfix">
+            <ul class="lang-select-list">
+                <li><a href="#" data-lang="zh_CN" style="color:black" class="lang-select-li current">简体</a>|</li>
+                <li><a href="#" data-lang="zh_TW" class="lang-select-li">繁体</a>|</li>
+                <li><a href="#" data-lang="en" class="lang-select-li">English</a>|</li>
+                <li><a href="#" target="_blank">常见问题</a>|</li>
+                <li><a id="msg-privacy" href="#" target="_blank">隐私政策</a></li>
+            </ul>
+        </div>
+        <p class="nf-intro">小米公司版权所有-京ICP备10046444-<a class="beian-record-link" target="_blank" href="#"><span><img
+                        src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>京公网安备11010802020134号</a>-京ICP证110507号</p>
+    </div>
+    
+
+   
+    <script src="js/common/ajax.js"></script>
+    <script src="js/star.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        starBg.init('.canvas-star');
+        login.init('.login-form');
+    </script>
+</body>
+
+</html>

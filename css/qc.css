@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li,ol{
+    list-style: none;}
+a{
+    text-decoration: none;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 16px;}
+
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input,figure,figcaption{margin:0;padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration: none;}
+img{border:0;display:block;}
+input{outline:none;}
+.clear{
+        content: ".";
+        clear: both;
+        display: block;
+        height: 0px;
+        overflow: hidden;
+        visibility: hidden;
+}
