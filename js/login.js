@@ -26,7 +26,7 @@ var login = (function(){
                         _this.loginSuccess(data);
                     }
                 }
-                sendAjax('http://localhost:1234/haha2/php/login.php', params);
+                sendAjax('http://localhost:1234/mi-master/php/login.php', params);
             }
         },
         loginSuccess: function(data) {
